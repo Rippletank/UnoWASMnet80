@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34112.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{BD735560-E458-48BD-8D48-C036629AED6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{C1A1E2DA-88EF-42FA-B2F6-3A72FBECE044}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoWASMnet80", "UnoWASMnet80\UnoWASMnet80\UnoWASMnet80.csproj", "{54BDACC4-B34D-4BAE-AFEF-295179707AE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoWASMnet80.Base", "UnoWASMnet80\UnoWASMnet80.Base\UnoWASMnet80.Base.csproj", "{532B1A7C-E7DB-49C8-8D84-A229EA474E8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoWASMnet80.Wasm", "UnoWASMnet80\UnoWASMnet80.Wasm\UnoWASMnet80.Wasm.csproj", "{88A66399-4950-43A2-AEB8-2EF3D3671721}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76E843F6-05DC-432E-AD4F-B3912167DCC4}"
+	ProjectSection(SolutionItems) = preProject
+		UnoWASMnet80\.gitignore = UnoWASMnet80\.gitignore
+		UnoWASMnet80\Directory.Build.props = UnoWASMnet80\Directory.Build.props
+		UnoWASMnet80\Directory.Build.targets = UnoWASMnet80\Directory.Build.targets
+		UnoWASMnet80\solution-config.props.sample = UnoWASMnet80\solution-config.props.sample
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54BDACC4-B34D-4BAE-AFEF-295179707AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BDACC4-B34D-4BAE-AFEF-295179707AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BDACC4-B34D-4BAE-AFEF-295179707AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BDACC4-B34D-4BAE-AFEF-295179707AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532B1A7C-E7DB-49C8-8D84-A229EA474E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532B1A7C-E7DB-49C8-8D84-A229EA474E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532B1A7C-E7DB-49C8-8D84-A229EA474E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532B1A7C-E7DB-49C8-8D84-A229EA474E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A66399-4950-43A2-AEB8-2EF3D3671721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A66399-4950-43A2-AEB8-2EF3D3671721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A66399-4950-43A2-AEB8-2EF3D3671721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A66399-4950-43A2-AEB8-2EF3D3671721}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1A1E2DA-88EF-42FA-B2F6-3A72FBECE044} = {BD735560-E458-48BD-8D48-C036629AED6F}
+		{54BDACC4-B34D-4BAE-AFEF-295179707AE9} = {BD735560-E458-48BD-8D48-C036629AED6F}
+		{532B1A7C-E7DB-49C8-8D84-A229EA474E8D} = {C1A1E2DA-88EF-42FA-B2F6-3A72FBECE044}
+		{88A66399-4950-43A2-AEB8-2EF3D3671721} = {C1A1E2DA-88EF-42FA-B2F6-3A72FBECE044}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C917C48B-EEB5-48B6-8722-66AEA28F0069}
+	EndGlobalSection
+EndGlobal
