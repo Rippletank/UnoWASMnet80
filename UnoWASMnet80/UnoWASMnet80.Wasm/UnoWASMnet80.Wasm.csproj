@@ -32,7 +32,8 @@
 		<!-- <WasmShellGenerateAOTProfile>true</WasmShellGenerateAOTProfile> -->
 	</PropertyGroup>
 	<PropertyGroup>
-		<WasmShellEnableThreads>false</WasmShellEnableThreads>
+		<WasmShellEnableThreads>true</WasmShellEnableThreads>
+		<WasmShellPThreadsPoolSize>8</WasmShellPThreadsPoolSize>
 	</PropertyGroup>
 	<ItemGroup>
 	</ItemGroup>
@@ -56,15 +57,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Uno.Resizetizer" Version="1.2.0-dev.68" />
-		<PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.0-rc.1.23420.5" />
-		<PackageReference Include="Uno.Wasm.Bootstrap" Version="8.0.0-dev.291" />
-		<PackageReference Include="Uno.Wasm.Bootstrap.DevServer" Version="8.0.0-dev.291" />
-		<PackageReference Include="Uno.WinUI.WebAssembly" Version="5.0.0-dev.3369" />
-		<PackageReference Include="Uno.WinUI.RemoteControl" Version="5.0.0-dev.3369" Condition="'$(Configuration)'=='Debug'" />
-		<PackageReference Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" Version="5.0.0-dev.3369" />
+		<PackageReference Include="Uno.Resizetizer" Version="1.2.0-dev.74" />
+		<PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.0-rc.2.23479.10" />
+		<PackageReference Include="Uno.Wasm.Bootstrap" Version="8.0.0-dev.306" />
+		<PackageReference Include="Uno.Wasm.Bootstrap.DevServer" Version="8.0.0-dev.306" />
+		<PackageReference Include="Uno.WinUI.WebAssembly" Version="5.0.0-dev.3455" />
+		<PackageReference Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" Version="5.0.0-dev.3455" />
 		<PackageReference Include="Uno.Extensions.Logging.WebAssembly.Console" Version="1.7.0-dev.1" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0-rc.1.23419.4" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0-rc.2.23479.6" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\UnoWASMnet80\UnoWASMnet80.csproj" />
